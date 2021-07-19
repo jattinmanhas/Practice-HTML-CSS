@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="./style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+          rel="stylesheet">
+     <title>Hello, world!</title>
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <div class="container-fluid">
+               <a class="navbar-brand" href="#">Jattin Manhas</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link text-capitalize" href="./About.html">about Us</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                   Services
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li>
+                                        <hr class="dropdown-divider">
+                                   </li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link text-capitalize" href="./gallery.html">Gallery</a>
+                         </li>
+
+                         <li class="nav-item">
+                              <a class="nav-link text-capitalize" href="./contact.html">contact Us</a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+     <!-- About us section start -->
+
+     <section class="my-4 pt-3">
+          <div class="text-center">
+               <h1 class="display-4 text-capitalize">contact us</h1>
+               <hr class="w-25 mx-auto" />
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+                         <form>
+                              <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                   <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                   </div>
+                              </div>
+
+                              <div class="mb-3">
+                                   <label for="exampleInputPassword1" class="form-label">Password</label>
+                                   <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+
+                              <label for="exampleDataList" class="form-label">Select your city</label>
+                              <input class="form-control mb-3" list="datalistOptions" id="exampleDataList"
+                                   placeholder="Type to Search your city...">
+                              <datalist id="datalistOptions">
+                                   <option value="San Francisco">
+                                   <option value="New York">
+                                   <option value="Seattle">
+                                   <option value="Los Angeles">
+                                   <option value="Chicago">
+                              </datalist>
+
+                              <div class="mb-3">
+                                   <label for="" class="pe-4" >Gender: </label>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Female</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Male</label>
+                                      </div>
+                              </div>
+
+                              <div class="mb-3">
+                                   <label for="formFileMultiple" class="form-label">Choose File to upload</label>
+                                   <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                 </div>
+
+                              <div class="form-floating">
+                                   <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                   <label for="floatingTextarea2">Comments</label>
+                              </div>
+
+                              <div class="mb-3 my-2 form-check">
+                                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <footer class="blog-footer">
+          <p>Website built by Jattin With &nbsp;<a href="https://getbootstrap.com/">Bootstrap&nbsp;</a>
+          <p>
+            <a href="#">Back to top</a>
+          </p>
+          <div class="social-media">
+               <div class="row text-center d-flex justify-content-center align-items-center">
+                    <div class="col-1 col-lg-1 text-center icons">
+                         <img src="./instagram icon.png" alt="">
+                    </div> 
+                    
+                    <div class="col-1 col-lg-1 text-center icons">
+                         <img src="./twitter.png" alt="">
+                    </div> 
+                    
+                    <div class="col-1 col-lg-1 text-center icons">
+                         <img src="./youtube.png" alt="">
+                    </div> 
+                    
+                    <div class="col-1 col-lg-1 text-center icons">
+                         <img src="./reddit.png" alt="">
+                    </div>
+                    
+                    <div class="col-1 col-lg-1 text-center icons">
+                         <img src="./discord.png" alt="">
+                    </div>
+               </div>
+          </div>
+        </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+          </script>
+
+     <script>
+          var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+               return new bootstrap.Tooltip(tooltipTriggerEl)
+          })
+     </script>
+</body>
+
+</html>
